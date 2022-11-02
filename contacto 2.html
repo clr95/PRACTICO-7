@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="assets/style/style2.css"; rel="stylesheet">
+<script src="assets/js/funciones.JS" defer></script>
+ <title>Contacto</title>
+ 
+ <header>
+  <h1>Tus dudas aquí</h1>
+  <h2>Tienes algo para decir?</h2>
+  <nav id="menu">
+    <ul>
+      <li><a href="FORMATO TODA PANTALLA.HTML">INICIO</a>
+       <ul>
+         <li><a href="hola.html">ESCRIBENOS</a></li>
+        </ul>
+       </li>
+      <li><a href="#">Nosotros </a>
+       <ul>
+         <li><a href="#">Quienes Somos</a></li>
+         <li><a href="#">Servicios</a></li>
+       </ul>
+       </li>
+      </li>
+      <li><a href="/estadisticas.html">Productos</a></li>
+      <li><a href="contacto 2.html">Contacto </a></li>
+      </ul>
+     </nav>
+  </header> 
+
+<body>
+  <BR>
+    <article>A través de este formulario puedes contactarnos para corregir errores, 
+        o simplemente para decir hola. 
+        Cualquier cosa que tengas para decir es bienvenida,
+         así que no lo dudes y déjame un mensaje. ¡Estaremos felices de contestarte!</article>
+         
+    <container>
+     
+      <form id="formulario" form action=""  name="Form" onsubmit="return validaForm()">
+        <fieldset>
+         <p><label class="form control">Tu nombre: <input type="text" name="nombre" id="nombre"></label></p>
+         <p><label>Tu dirección de correo: <input type="text" name="correo" id="correo"></label></p>
+         <p><label> Tu mensaje:<br><textarea name="mensaje" id="mensaje"></textarea> </label></p></fieldset>
+         
+         <fieldset>
+         <legend>Nuevos temas</legend>
+         <p>¿Cuanto nos tardamos elaborando este sitio?<br>
+                   <label><input type="checkbox" name="1dia"> 1 día</label>
+                   <label><input type="checkbox" name="2dias"> 2 días</label>
+                   <label><input type="checkbox" name="1semana"> 1 semana</label>
+                   <label><input type="checkbox" name="El tiempo es relativo"> El tiempo es relativo</label>
+                   <label><input type="checkbox" name="Lo que tengamos que tardar"> Lo que tengamos que tardar</label>
+                   </p>
+                  </fieldset>
+           <p>
+           <form method="post" action="mailto:camilandaeta@gmail.com" target="_self"> 
+           <button class="btn" value="Enviar mensaje" onclick="return validaForm()">enviar</button>
+           <button class="btn" type="reload"  id="reload"value="Comenzar de nuevo">Reiniciar</button>
+           </p>
+          </form>
+    
+</body>
+<footer style="width:100%"; margin-inline="10px 20px"; position="absolute">
+ Dirección: Camilo Henriquez #456, Valdivia.
+          <div class="container row"; position= "absolute"; style="background-color: #525252; color: white;"margin-bottom: 0;>
+          Integrantes: Camila Landaeta - Adriana Barreto - Christian Padilla - Aaron Canales 
+            <p>2022 Awakelab</p>
+    </div>
+</html>

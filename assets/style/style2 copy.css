@@ -1,0 +1,117 @@
+* body{  
+  background-image: url("FONDO.jpg");
+  font-size: calc(1px + 1vw);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+h1{text-align: center;
+  text-transform: uppercase;
+  color: rgb(236, 212, 236);}
+
+h2{text-align: center;
+    text-transform: uppercase;
+    color: rgb(175, 143, 162);
+  margin-top: 1vw;}  
+
+h3{text-align: center;
+  text-transform: capitalize;
+  color: rgb(255, 91, 255)}
+
+  div{margin-top: 1%;
+    text-align: center;
+  color:rgb(130, 100, 134);
+font-size: 40px;
+background-color: bisque;}
+
+div.estadisticas {
+  text-align: center;
+color:rgb(144, 27, 199);
+font-size: 40px;
+box-sizing: border-box;
+background-color: azure;
+border-style: groove;
+}
+
+p{text-align: center;
+  text-transform: capitalize;
+  color: rgb(44,40,44)}
+  header{  font-family: Helvetica; width:max-content; margin: auto; margin-bottom: 70px;padding: 100;}
+  nav ul{  list-style: none;}
+  #menu ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+   }
+   
+   
+   
+   #menu ul li {
+    background-color:#4e166e;
+   }
+   
+  
+   #menu ul a {
+    display:block;
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:1px;
+   }
+   
+
+   
+   #menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+   }
+   
+  
+   #menu ul li:hover {
+    background:#5b78a7;
+   }
+
+#menu ul ul {
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  background:#eee;
+  padding:0;
+ }
+ 
+ 
+ #menu ul ul li {
+  float:none;
+  width:150px
+ }
+ 
+ 
+ #menu ul ul a {
+  line-height:120%;
+  padding:10px 15px;
+ }
+ 
+ 
+ #menu ul li:hover > ul {
+  display:block;
+ }
+
+ article {margin:  auto; margin-bottom: 70px; text-align:
+   center;margin-top: 50 px;position:sticky}
+   section{margin: 0 auto; margin-bottom: 70px; float: none; text-align: center;text-transform:uppercase;
+    padding: 100;color: rgb(77, 6, 77) }
+  .container{margin: 0; padding: 100; text-align: center}
+  
+  
+
+  footer { background-color: rgb(161, 142, 187); text-align: center; 
+    position: static; bottom: 0; width: 100%; color: rgb(255, 247, 247); font-size: small; }
+  div.footer2{background-color: rgb(77,6,77);font-size:small;}
+  div.p {margin: 0 auto; margin-bottom: 70px; margin: 0;color: white; background-color: black; font-size: small }
+  

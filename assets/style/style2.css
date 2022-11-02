@@ -1,0 +1,131 @@
+* body{background-color:cornsilk; 
+  font-size: calc(1px + 1vw);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+h1{text-align: center;
+  text-transform: uppercase;
+  color: rgb(77,6,77);}
+
+h2{text-align: center;
+    text-transform: uppercase;
+    color: rgb(194,55,136);
+  margin-top: 1vw;}  
+
+h3{text-align: center;
+  text-transform: capitalize;
+  color: rgb(24,23,24)}
+
+p{text-align: center;
+  text-transform: capitalize;
+  color: rgb(44,40,44)}
+  header{  font-family: Helvetica; width:max-content; margin: auto; margin-bottom: 70px;padding: 100;}
+  nav ul{  list-style: none;}
+  #menu ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+   }
+   
+   
+   
+   #menu ul li {
+    background-color:#4e166e;
+   }
+   
+  
+   #menu ul a {
+    display:block;
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:1px;
+   }
+   
+
+   
+   #menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+   }
+   
+  
+   #menu ul li:hover {
+    background:#5b78a7;
+   }
+
+#menu ul ul {
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  background:#eee;
+  padding:0;
+ }
+ 
+ 
+ #menu ul ul li {
+  float:none;
+  width:150px
+ }
+ 
+ 
+ #menu ul ul a {
+  line-height:120%;
+  padding:10px 15px;
+ }
+ 
+ 
+ #menu ul li:hover > ul {
+  display:block;
+ }
+form {text-align: center;margin: 15px;}
+br{line-height:10px}
+
+ article {margin:  auto; margin-bottom: 70px; text-align:
+   center;margin-top: 50 px;position:sticky}
+   section{margin: 0 auto; margin-bottom: 70px; float: none; text-align: center;text-transform:uppercase;
+    padding: 100;color: rgb(77, 6, 77) }
+  .container{margin: 0; padding: 100; text-align: center}
+  
+  .divTable{
+    display: table;
+    width: 100%;
+  }
+  .divTableRow {
+    display: table-row;
+  }
+  .divTableHeading {
+    background-color: rgb(32, 226, 240);
+    display: table-header-group;
+  }
+  .divTableCell, .divTableHead {
+    border: 1px solid #666666;
+    display: table-cell;
+    padding: 3px 10px;
+  }
+  .divTableHeading {
+    background-color: rgb(212, 167, 230);
+    display: table-header-group;
+    font-weight: bold;
+  }
+  .divTableFoot {
+    background-color: rgb(186, 142, 243);
+    display: table-footer-group;
+    font-weight: bold;
+  }
+  .divTableBody {
+    display: table-row-group;
+  }  
+
+  footer { background-color: rgb(20, 20, 19);margin-left: 0px; padding-top: 10px; 
+    position: static; bottom: 0; width: 100%; color: rgb(255, 247, 247); }
+  div.footer2{background-color: rgb(77,6,77);}
+  div.p {margin: 0 auto; margin-bottom: 70px; margin: 0;color: white; background-color: black; }
+   
